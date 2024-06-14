@@ -83,6 +83,20 @@
       "hp": 60,
       "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
       "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png"
+    },
+    {
+      "name": "charmander",
+      "hp": 30,
+      "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/<filename>.png",
+      "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/<filename>.png",
+      "id": 13
+    },
+    {
+      "name": "charmander",
+      "hp": 30,
+      "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/<filename>.png",
+      "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/<filename>.png",
+      "id": 14
     }
   ]
 }
