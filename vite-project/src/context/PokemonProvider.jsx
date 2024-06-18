@@ -37,7 +37,19 @@ const PokemonProvider = ({ children }) => {
       try {
         const data = await handleFetch("http://localhost:4000/pokemon");
         if (Array.isArray(data)) {
-          setAllPokemon(data);
+          /* FEEDBACK: This is super close! Take a look at handleFetch
+          and you'll see that it ALWAYS returns an array with two values.
+          - The first value will be the data fetched or null.
+          - The second value will be the error or null.
+          Only one of those two values will ever be null while the other
+          will exist.
+          
+          So, instead of checking the value returned by handleFetch is
+          an Array, check to see if the first value of that array exists
+          or is null. If it exists, that first value is what you want
+          to set as your `allPokemon` value.
+          */
+          // setAllPokemon(data);
         } else {
           console.error("Invalid data format:", data);
         }
